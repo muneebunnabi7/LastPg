@@ -12,12 +12,12 @@ public class BookingForm
 	private String checkout;
 	private String noper;
 	private String email;
-	private long phone;
+	private String phone;
 	private String state;
 	private String city;
 	private String zip;
-	private int adhar;
-	private int pan;
+	private String adhar;
+	private String pan;
 	public String getFname() {
 		return fname;
 	}
@@ -78,10 +78,10 @@ public class BookingForm
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public long getPhone() {
+	public String getPhone() {
 		return phone;
 	}
-	public void setPhone(long phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	public String getState() {
@@ -102,16 +102,16 @@ public class BookingForm
 	public void setZip(String zip) {
 		this.zip = zip;
 	}
-	public int getAdhar() {
+	public String getAdhar() {
 		return adhar;
 	}
-	public void setAdhar(int adhar) {
+	public void setAdhar(String adhar) {
 		this.adhar = adhar;
 	}
-	public int getPan() {
+	public String getPan() {
 		return pan;
 	}
-	public void setPan(int pan) {
+	public void setPan(String pan) {
 		this.pan = pan;
 	}
 	

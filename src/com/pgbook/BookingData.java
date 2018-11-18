@@ -50,12 +50,12 @@ public class BookingData {
 			ps.setString(8,bf.getCheckout());
 			ps.setString(9,bf.getNoper());
 			ps.setString(10,bf.getEmail());
-			ps.setLong(11,bf.getPhone());
+			ps.setString(11,bf.getPhone());
 			ps.setString(12,bf.getState());
 			ps.setString(13,bf.getCity());
 			ps.setString(14,bf.getZip());
-			ps.setInt(15,bf.getAdhar());
-			ps.setInt(16,bf.getPan());
+			ps.setString(15,bf.getAdhar());
+			ps.setString(16,bf.getPan());
 			i = ps.executeUpdate();
 			}
 			con.close();
@@ -86,17 +86,17 @@ public class BookingData {
 			fill.setLname(rs.getString(3));
 			fill.setGender(rs.getString(4));
 			fill.setMstatus(rs.getString(5));
-			fill.setDob(rs.getString(5));
-			fill.setCheckin(rs.getString(6));
-			fill.setCheckout(rs.getString(7));
-			fill.setNoper(rs.getString(8));
-			fill.setEmail(rs.getString(9));
-			fill.setPhone(rs.getLong(10));
-			fill.setState(rs.getString(11));
-			fill.setCity(rs.getString(12));
-			fill.setZip(rs.getString(13));
-			fill.setAdhar(rs.getInt(14));
-			fill.setPan(rs.getInt(15));
+			fill.setDob(rs.getString(6));
+			fill.setCheckin(rs.getString(7));
+			fill.setCheckout(rs.getString(8));
+			fill.setNoper(rs.getString(9));
+			fill.setEmail(rs.getString(10));
+			fill.setPhone(rs.getString(11));
+			fill.setState(rs.getString(12));
+			fill.setCity(rs.getString(13));
+			fill.setZip(rs.getString(14));
+			fill.setAdhar(rs.getString(15));
+			fill.setPan(rs.getString(16));
 			lst.add(fill);
 		  }
 		     }

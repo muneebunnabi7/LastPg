@@ -41,20 +41,18 @@
     	<i class="fas fa-transgender"></i>
     <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Gender:</label><br>
     <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" style="width:50%" name="gend">
-    <option selected>Choose...</option>
-    <option value="1">Male</option>
-    <option value="2">Female</option>
-     <option value="3">Others</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+     <option value="Others">Others</option>
     </select>
      </div>
-
-    <div class="col-md-4 mb-3">
-    <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Maternal Status:</label><br>
-    <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" style="width:50%"name="status">
-    <option selected>Choose...</option>
-    <option value="1">Married</option>
-    <option value="2">Unmarried</option>
-    </select>
+     <div class="col-md-4 mb-3">
+    <label >Maternal Status:</label><br>
+     <select class="custom-select my-1 mr-sm-2" style="width:50%" name="status">
+     <option value="Married">Married</option>
+     <option value="Unmarried">Unmarried</option>
+     </select>
+    
      </div>
       
        <div class="col-md-4 mb-3">
@@ -82,7 +80,7 @@
         
            <i class="fas fa-person-sign"></i>
       <label class="control-label" for="date">No Of Persons</label> 
-        <input type="number" class="form-control"  name="number" placeholder="number" step="1" style="width:50%">
+        <input type="text" class="form-control"  name="number" placeholder="number"  style="width:50%">
          </div>
   </div>
 
@@ -96,7 +94,7 @@
 
      <div class="col-md-4 mb-3">
       <label for="validationPhone">Ph. No</label><i class="fas fa-phone"></i>
-        <input type="tel" id="phone" class="form-control is-valid" name="phone"
+        <input type="text" id="phone" class="form-control is-valid" name="phone"
          placeholder="+91-123456789"
          style="width:50%">
 
@@ -134,16 +132,14 @@
 
 
     <div class="col-md-4 mb-3">
-      <label for="validationServer05">Adhahar Number</label>
-      <input type="number" class="form-control is-valid" id="validationServer05" placeholder="Adhahar Number" required style="width:50%"name="Anum">
-      
+          <label>Adhar Card Number</label>
+          <input type="text" class="form-control is-valid" placeholder="Adhar number" style="width:50%" name="anum" >
     </div>
- 
      <div class="col-md-4 mb-3">
-      <label for="validationServer05">Pan Card NUmber</label>
-      <input type="number" class="form-control is-valid" id="validationServer05" placeholder="Pan Card NUmber" required style="width:50%" name="Pnum">
-      
-    </div>
+       <label>Pan Card Number</label>
+       <input type="text" class="form-control is-valid" placeholder="Pan card number" style="width:50%" name="pnum">
+     
+     </div>
 
     </div>
   
